@@ -14,14 +14,22 @@ builds:
       - freebsd
       - darwin
     goarch:
+      - amd64
       - arm
       - arm64
-      - 386
-      - amd64
-      - mips
-      - mipsle
-      - s390x
+      - loong64
       - riscv64
+      - mips
+      - mips64
+      - mipsle
+      - ppc64
+      - ppc64le
+      - mips64le
+      - s390x
+    goarm:
+      - 5
+      - 6
+      - 7
     gomips:
       - softfloat
     ignore:
